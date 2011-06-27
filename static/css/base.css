@@ -1,0 +1,117 @@
+body {
+    
+    background-color: #020f22;
+    background-image: url(/static/images/background1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    font-size: medium;
+    width: 1010px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color:#fff;
+}
+a {
+/*    color: #5ff; */
+    color: #0ff;
+}
+a:hover {
+    color: #0f0;
+}
+a:visited {
+    color: #099;
+}
+a:visited:hover {
+    color: #0f0;
+}
+.content {
+    min-height: 400px;
+}
+.user_info {
+    float: right;
+    text-align: right;
+}
+.menu {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.jqDock {
+    left: 0px !important;
+}
+.menu img {
+    padding-right: 0px;
+}
+.footer {
+    text-align: center;
+}
+.news {
+    font-style: italic;
+    font-size: small;
+    list-style: none;
+}
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+div {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 12px 5px 5px 5px;
+    margin: 10px 5px 5px 5px;
+}
+p {
+    font-size: medium;
+    text-indent: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.license {
+    background-color: #333;
+    font-size: small;
+    text-align: center;
+}
+.ui-widget {
+    opacity: .8;
+}
+.p_img {
+    padding: 10px 20px 10px 10px;
+}
+.errors {
+    color: red;
+    font-weight: bolder;
+}
+.errorlist {
+    color: red;
+    font-weight: bold;
+    font-size: small;
+}
+.sign_up_table tr td,th {
+    padding-top: 30px;
+    vertical-align: center;
+}
+.sign_up_table ul {
+    list-style: none;
+}
+.participant_events_form ul {
+    list-style: none;
+}
+.accordion {
+    font-size: medium!important;
+}
+.ui-accordion-header {
+    text-indent: 30px;
+}
+p.oneliner {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+.notice p {
+    text-indent: 0px;
+}

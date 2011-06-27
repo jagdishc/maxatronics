@@ -1,0 +1,38 @@
+{% extends "registration/base.html" %}
+{% load i18n %}
+{% block title %} Sign Up {% endblock %}
+
+{% block content %}
+{% if form.errors %}
+    <div class="errors">
+        <p>Error while submitting form</p>
+    </div>
+    <br>
+{% endif %}
+<h1>Join</h1>
+<p>Fill in the details below... </p>
+<form action="" method="post">
+    {% csrf_token %}
+    <fieldset>
+	    <legend>{% trans "Create a new account" %}</legend>
+	    <table class="sign_up_table">
+		    {{ form.as_table }}
+		    <script type="text/javascript">
+		        var slcollege = document.getElementById('id_college');
+		        slcollege.onchange = function () {
+	    	        if(slcollege.value == "-1")
+	    	        {
+	    	            document.getElementById('id_add_your_college').disabled = false;
+                    }
+                    else
+                    {
+                        document.getElementById('id_add_your_college').disabled = true;
+                    }
+                };
+                slcollege.onchange();
+		    </script>
+	    </table>
+	    <p><input type="submit" name="bsignup" value="Sign up"> </p>
+	 </fieldset>
+</form>
+{% endblock %}
