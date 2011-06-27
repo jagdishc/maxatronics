@@ -1,0 +1,4 @@
+*.pyc
+localsettings.py
+*.json
+User_Story.txt
